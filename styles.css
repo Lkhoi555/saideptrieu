@@ -1,0 +1,105 @@
+/* Định dạng tổng thể */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #6A0572;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation - Giống ảnh 1 */
+nav {
+    display: flex;
+    justify-content: space-between; /* Logo trái - Menu phải */
+    align-items: center;
+    background-color: white; /* Nền trắng */
+    padding: 15px 50px; /* Căn lề ngang */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid lightgray; /* Đường kẻ dưới menu */
+}
+
+/* Logo */
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: orange; /* Màu giống ảnh 1 */
+}
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
+    gap: 30px; /* Tăng khoảng cách giữa các menu */
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-button:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Container chính */
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Thread (bài viết) */
+.thread {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.thread h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+.thread img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.thread img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #2C3E50;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
